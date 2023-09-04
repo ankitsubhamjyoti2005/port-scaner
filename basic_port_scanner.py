@@ -12,7 +12,7 @@ def scan(i):
     s.settimeout(4)
     result = s.connect_ex((host, i))
     if result == 0:
-        print(i," port opean")
+        print(i," port open")
     # else:
     #     print(i, " port is close\n")
     s.close()
